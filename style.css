@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  margin: 40px auto;
+  width: 700px;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 50px;
+  background-color: #2A2F4F;
+  box-shadow: 10px 5px 5px #917FB3;
+  border-radius: 5px;
+  text-align: center;
+}
+
+body {
+  background-color: beige;
+  font-family: 'Open Sans', sans-serif;
+  color: #FDE2F3;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: x-large;
+  color: #917FB3;
+}
+
+h2 {
+  font-size:large;
+}
+
+a {
+  text-decoration: none;
+  color: #FDE2F3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
